@@ -8,6 +8,18 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m'
 
+# Cyberpunk Banner
+echo -e "${RED}"
+echo "██████╗░██╗░░░░░░█████╗░░█████╗░██╗░██████╗████████╗███████╗"
+echo "██╔══██╗██║░░░░░██╔══██╗██╔══██╗██║██╔════╝╚══██╔══╝██╔════╝"
+echo "██████╦╝██║░░░░░███████║██║░░╚═╝██║╚█████╗░░░░██║░░░█████╗░░"
+echo "██╔══██╗██║░░░░░██╔══██║██║░░██╗██║░╚═══██╗░░░██║░░░██╔══╝░░"
+echo "██████╦╝███████╗██║░░██║╚█████╔╝██║██████╔╝░░░██║░░░███████╗"
+echo "╚═════╝░╚══════╝╚═╝░░╚═╝░╚════╝░╚═╝╚═════╝░░░░╚═╝░░░╚══════╝"
+echo "        Author: Inayat Hussain | Security Researcher"
+echo "           [ find | enumerate | hack the planet ]"
+echo -e "${NC}"
+
 echo -e "${GREEN}Welcome to BLACKSITE OSINT v2.6${NC}"
 read -p "Enter target company name (e.g., tesla.com or Tesla): " TARGET
 read -p "Enter company keyword for LinkedIn (e.g., Tesla or 'Tesla Inc.'): " COMPANY_KEYWORD
